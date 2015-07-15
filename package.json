@@ -1,0 +1,43 @@
+{
+  "name": "ng-honeybadger-logger",
+  "version": "0.0.1",
+  "description": "Angular log decorator for Honeybadger, error logging integration",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Gargol/ng-honeybadger-logger.git"
+  },
+  "main": "honeybadger-logger.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "keywords": [
+    "logger",
+    "honeybadger",
+    "log",
+    "angular",
+    "decorator"
+  ],
+  "author": "Nazar Gargol",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-jasmine": "^2.0.1",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.2.0",
+    "jasmine": "^2.3.1",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.12.37",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-jasmine": "^0.3.6",
+    "karma-phantomjs-launcher": "^0.2.0",
+    "phantomjs": "^1.9.17"
+  },
+  "dependencies": {
+    "angular": "^1.4.3",
+    "angular-mocks": "^1.4.3"
+  }
+}
