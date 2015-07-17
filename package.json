@@ -23,15 +23,18 @@
   "author": "Nazar Gargol",
   "license": "MIT",
   "devDependencies": {
+    "coveralls": "^2.11.2",
     "gulp": "^3.9.0",
     "gulp-concat": "^2.6.0",
     "gulp-jasmine": "^2.0.1",
     "gulp-sourcemaps": "^1.5.2",
     "gulp-uglify": "^1.2.0",
+    "istanbul": "^0.3.17",
     "jasmine": "^2.3.1",
     "jasmine-core": "^2.3.4",
     "karma": "^0.12.37",
     "karma-chrome-launcher": "^0.2.0",
+    "karma-coverage": "^0.4.2",
     "karma-jasmine": "^0.3.6",
     "karma-phantomjs-launcher": "^0.2.0",
     "phantomjs": "^1.9.17"

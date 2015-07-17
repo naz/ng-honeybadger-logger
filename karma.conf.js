@@ -29,7 +29,16 @@ module.exports = function(config) {
     // test results reporter to use
     // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-    reporters: ['progress'],
+    reporters: ['progress', 'coverage'],
+
+    preprocessors: {
+      './src/*.js': ['coverage']
+    },
+
+    coverageReporter: {
+      type : 'lcovonly',
+      dir : 'coverage/'
+    },
 
     // enable / disable colors in the output (reporters and logs)
     colors: true,
