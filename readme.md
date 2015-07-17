@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/Gargol/ng-honeybadger-logger.svg?branch=master)](https://travis-ci.org/Gargol/ng-honeybadger-logger)
+[![Coverage Status](https://coveralls.io/repos/Gargol/ng-honeybadger-logger/badge.svg?branch=master&service=github)](https://coveralls.io/github/Gargol/ng-honeybadger-logger?branch=master)
+
 # ng-honeybadger-logger
 ng-honeybadger-logger is an [AngularJS](https://angular.io/) module that helps integrating :zap: [Honeybadger](http://honeybadger.io/) logger into your angular app.
 
