@@ -5,9 +5,9 @@
 ng-honeybadger-logger is an [AngularJS](https://angular.io/) module that helps integrating :zap: [Honeybadger](http://honeybadger.io/) logger into your angular app.
 
 #Getting Started
-Install `ng-honeybadger-logger` package via bower:
+Install `ng-honeybadger-logger` package via npm:
 ```bash
-bower install ng-honeybadger-logger
+npm install ng-honeybadger-logger
 ```
 
 Follow standard [installation procedure](https://github.com/honeybadger-io/honeybadger-js#installation) of Honeybadger.
